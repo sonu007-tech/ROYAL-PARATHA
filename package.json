@@ -1,0 +1,33 @@
+{
+  "name": "royal-paratha",
+  "version": "1.0.0",
+  "description": "My site",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server",
+    "vuln": "npm audit --json | npm-audit-helper"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonu007-tech/ROYAL-PARATHA.git"
+  },
+  "author": "Sonu Rana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sonu007-tech/ROYAL-PARATHA/issues"
+  },
+  "homepage": "https://github.com/sonu007-tech/ROYAL-PARATHA#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4",
+    "npm-audit-helper": "^2.3.21"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}
