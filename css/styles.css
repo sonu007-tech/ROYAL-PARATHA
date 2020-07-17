@@ -1,0 +1,113 @@
+
+h1,p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: #FEFFFF;
+}
+
+.navbar {
+    background: #5AB9EA;
+}
+
+
+.row-header {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+.row-content {
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+}
+
+.footer {
+    background-color: #5AB9EA;
+    margin: 0px auto;
+    padding: 20px 0px 20px 0px;
+}
+
+.jumbotron {
+    padding: 70px 30px 70px 30px;
+    margin: 0px auto;
+    background:  #84CEEB ;
+    color: floralwhite;
+}
+
+address {
+    font-size: 80%;
+    margin: 0px;
+    color: #0f0f0f;
+}
+
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+}
+
+.navbar-dark {
+    background-color: #512DA8;
+}
+
+.tab-content {
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+.carousel {
+    background: #512DA8;
+}
+
+.carousel-item {
+    height: 300px;
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 300px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic);
+
+blockquote {
+    font-size: 1.4em;
+    width: 100%;
+    /* margin: 50px auto; */
+    font-family: Open Sans;
+    font-style: italic;
+    color: #555555;
+    padding: 1.2em 30px 1.2em 75px;
+    /* border-left: 8px solid #78C0A8; */
+    /* line-height: 1.6; */
+    /* position: relative; */
+    /* background: #EDEDED; */
+}
+
+blockquote::before {
+    font-family: Arial;
+    content: "\201C";
+    color: #78C0A8;
+    font-size: 4em;
+    position: absolute;
+    left: 10px;
+    top: -10px;
+}
+.card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.card{
+    width: 300px;
+}
+img{}
+
+
+
+
+
